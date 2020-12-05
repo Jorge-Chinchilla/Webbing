@@ -5,7 +5,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6aceb148-527f-45a0-9d20-46c9a1c541cf" name="Default Changelist" comment="tindog, cambios en seccion 1 y seccion 2 de la interfaz usando bootstrap." />
+    <list default="true" id="6aceb148-527f-45a0-9d20-46c9a1c541cf" name="Default Changelist" comment="tindog, cambios en seccion 1 y seccion 2 de la interfaz usando bootstrap.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +53,8 @@
       <workItem from="1607059511944" duration="195000" />
       <workItem from="1607059716134" duration="1139000" />
       <workItem from="1607097192708" duration="423000" />
-      <workItem from="1607097633107" duration="12592000" />
+      <workItem from="1607097633107" duration="15111000" />
+      <workItem from="1607131627496" duration="4249000" />
     </task>
     <task id="LOCAL-00001" summary="tindog section 6 - Bootstrap">
       <created>1607097422657</created>
@@ -72,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607113316516</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="tindog, cambios en seccion 1 y seccion 2 de la interfaz usando bootstrap.">
+      <created>1607113603003</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607113603003</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
