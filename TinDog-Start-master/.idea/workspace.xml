@@ -5,10 +5,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6aceb148-527f-45a0-9d20-46c9a1c541cf" name="Default Changelist" comment="tindog, bootstrap carousel">
+    <list default="true" id="6aceb148-527f-45a0-9d20-46c9a1c541cf" name="Default Changelist" comment="tindog, recursos png solucionados etc">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/TechCrunch.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/tc.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +56,14 @@
       <workItem from="1607097633107" duration="15111000" />
       <workItem from="1607131627496" duration="4561000" />
       <workItem from="1607137093732" duration="17000" />
-      <workItem from="1607137220153" duration="735000" />
+      <workItem from="1607137220153" duration="1435000" />
+      <workItem from="1607193830239" duration="4035000" />
+      <workItem from="1607460885349" duration="2547000" />
+      <workItem from="1607482167970" duration="662000" />
+      <workItem from="1608089487434" duration="729000" />
+      <workItem from="1609037870932" duration="310000" />
+      <workItem from="1609088884919" duration="1000" />
+      <workItem from="1609093004722" duration="4963000" />
     </task>
     <task id="LOCAL-00001" summary="tindog section 6 - Bootstrap">
       <created>1607097422657</created>
@@ -94,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607136861909</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="tindog, recursos png solucionados etc">
+      <created>1607138019506</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607138019506</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,20 +129,25 @@
     <MESSAGE value="tindog section 6 - Bootstrap" />
     <MESSAGE value="tindog, cambios en seccion 1 y seccion 2 de la interfaz usando bootstrap." />
     <MESSAGE value="tindog, bootstrap carousel" />
-    <option name="LAST_COMMIT_MESSAGE" value="tindog, bootstrap carousel" />
+    <MESSAGE value="tindog, recursos png solucionados etc" />
+    <option name="LAST_COMMIT_MESSAGE" value="tindog, recursos png solucionados etc" />
   </component>
   <component name="WindowStateProjectService">
     <state x="461" y="185" width="994" height="710" key="SettingsEditor" timestamp="1607101325599">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="461" y="185" width="994" height="710" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1607101325599" />
-    <state x="486" y="273" key="Vcs.Push.Dialog.v2" timestamp="1607136864240">
+    <state x="486" y="273" key="Vcs.Push.Dialog.v2" timestamp="1607138062775">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="486" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1607136864240" />
+    <state x="486" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1607138062775" />
     <state x="777" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607137235692">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="777" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1607137235692" />
+    <state x="616" y="250" key="run.anything.popup" timestamp="1607462092925">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="616" y="250" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1607462092925" />
   </component>
 </project>
