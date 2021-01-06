@@ -5,10 +5,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6aceb148-527f-45a0-9d20-46c9a1c541cf" name="Default Changelist" comment="tindog, cards, z-index, media queries">
+    <list default="true" id="6aceb148-527f-45a0-9d20-46c9a1c541cf" name="Default Changelist" comment="tindog, Last commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +61,9 @@
       <workItem from="1608089487434" duration="729000" />
       <workItem from="1609037870932" duration="310000" />
       <workItem from="1609088884919" duration="1000" />
-      <workItem from="1609093004722" duration="9910000" />
+      <workItem from="1609093004722" duration="11727000" />
+      <workItem from="1609175203256" duration="1191000" />
+      <workItem from="1609265226245" duration="725000" />
     </task>
     <task id="LOCAL-00001" summary="tindog section 6 - Bootstrap">
       <created>1607097422657</created>
@@ -114,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609102789345</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="tindog, Last commit">
+      <created>1609113265926</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1609113265926</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,17 +145,18 @@
     <MESSAGE value="tindog, bootstrap carousel" />
     <MESSAGE value="tindog, recursos png solucionados etc" />
     <MESSAGE value="tindog, cards, z-index, media queries" />
-    <option name="LAST_COMMIT_MESSAGE" value="tindog, cards, z-index, media queries" />
+    <MESSAGE value="tindog, Last commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="tindog, Last commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="461" y="185" width="994" height="710" key="SettingsEditor" timestamp="1607101325599">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="461" y="185" width="994" height="710" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1607101325599" />
-    <state x="486" y="273" key="Vcs.Push.Dialog.v2" timestamp="1609102792541">
+    <state x="486" y="273" key="Vcs.Push.Dialog.v2" timestamp="1609113267773">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="486" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1609102792541" />
+    <state x="486" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1609113267773" />
     <state x="777" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607137235692">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
