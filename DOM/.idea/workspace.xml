@@ -19,7 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="606a7693-bfee-44d6-a831-31bea6c2a8bc" name="Default Changelist" comment="DOM, selectors // problemas con la conexion del repositorio#6" />
+    <list default="true" id="606a7693-bfee-44d6-a831-31bea6c2a8bc" name="Default Changelist" comment="DOM, selectors // problemas con la conexion del repositorio#6">
+      <change afterPath="$PROJECT_DIR$/../Dicee Challenge - Starting Files/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dicee Challenge - Starting Files/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dicee Challenge - Starting Files/dicee.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,6 +76,8 @@
       <workItem from="1609898302942" duration="37000" />
       <workItem from="1609898345786" duration="100000" />
       <workItem from="1609898457606" duration="66000" />
+      <workItem from="1609898532312" duration="3893000" />
+      <workItem from="1609905717371" duration="65000" />
     </task>
     <task id="LOCAL-00001" summary="DOM, selectors">
       <created>1609897281807</created>
@@ -105,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609898357282</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="DOM, selector //reparando el repositorio y webstorm">
+      <created>1609898677245</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1609898677245</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,7 +148,8 @@
     <MESSAGE value="DOM, selectors // problemas con la conexion del repositorio#2" />
     <MESSAGE value="DOM, selectors // problemas con la conexion del repositorio#3" />
     <MESSAGE value="DOM, selectors // problemas con la conexion del repositorio#4" />
-    <option name="LAST_COMMIT_MESSAGE" value="DOM, selectors // problemas con la conexion del repositorio#4" />
+    <MESSAGE value="DOM, selector //reparando el repositorio y webstorm" />
+    <option name="LAST_COMMIT_MESSAGE" value="DOM, selector //reparando el repositorio y webstorm" />
   </component>
   <component name="WindowStateProjectService">
     <state x="551" y="197" key="#Deployment" timestamp="1609898216282">
@@ -151,13 +168,17 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="505" y="202" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1609898496679" />
-    <state x="551" y="270" key="Vcs.Push.Dialog.v2" timestamp="1609898421738">
+    <state x="551" y="270" key="Vcs.Push.Dialog.v2" timestamp="1609898681900">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="551" y="270" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1609898421738" />
+    <state x="551" y="270" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1609898681900" />
     <state x="776" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609898163983">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="776" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1609898163983" />
+    <state x="616" y="250" key="run.anything.popup" timestamp="1609901493518">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="616" y="250" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1609901493518" />
   </component>
 </project>
