@@ -43,3 +43,24 @@ $("h1").before("<button>before</button>");
 $("h1").after("<button>after</button>");
 $("h1").prepend("<button>prepend</button>");
 $("h1").append("<button>append</button>");
+// YOU CAN REMOVE AN ELEMENT WITH:
+    //$("button").remove();
+
+//some animations
+//h1 will desappear, currently wont work
+$("button").on("click", function (){
+    //hide
+    //$("h1").hide();
+    //toggle it to hide and show
+    // $("h1").toggle();
+    // $("h1").fadeOut();
+    // $("h1").fadeIn();
+    // $("h1").slideUp();
+    // $("h1").slideDown();
+    // $("h1").slideToggle();
+
+    //$("h1").animate({opacity: 0.5});
+
+    $("h1").slideUp().slideDown().animate({opacity: 0.5});
+
+})
