@@ -10,9 +10,12 @@ const express = require('express');
 const app = express();
 
 //what should happen when the browser makes the get request.
-// app.get("/", function (request, response){
-//
-// });
+app.get("/", function (req, res){
+    res.send("<h1>Hello</h1>");
+});
+app.get("/contact", function (resp, res){
+    res.send("<h2>Contact me</h2>")
+})
 
 app.listen(3000, function (){
     //ora implementation
