@@ -20,12 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="606a7693-bfee-44d6-a831-31bea6c2a8bc" name="Default Changelist" comment="DOM, selectors // problemas con la conexion del repositorio#6">
-      <change afterPath="$PROJECT_DIR$/../Dicee Challenge - Starting Files/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dicee Challenge - Starting Files/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dicee Challenge - Starting Files/dicee.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-express-server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-express-server/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +73,7 @@
       <workItem from="1609898457606" duration="66000" />
       <workItem from="1609898532312" duration="3893000" />
       <workItem from="1609905717371" duration="65000" />
+      <workItem from="1610506090721" duration="163000" />
     </task>
     <task id="LOCAL-00001" summary="DOM, selectors">
       <created>1609897281807</created>

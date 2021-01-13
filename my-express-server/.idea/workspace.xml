@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d8751b1-83c3-40bc-b649-e1a1d286a01b" name="Default Changelist" comment="Express, using an npm throbber for the terminal">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-    </list>
+    <list default="true" id="6d8751b1-83c3-40bc-b649-e1a1d286a01b" name="Default Changelist" comment="Express, setting multiple routes and installing nodemon" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +60,7 @@
       <workItem from="1610256278813" duration="907000" />
       <workItem from="1610295765521" duration="2344000" />
       <workItem from="1610378699784" duration="372000" />
-      <workItem from="1610379083161" duration="1782000" />
+      <workItem from="1610379083161" duration="1966000" />
     </task>
     <task id="LOCAL-00001" summary="Express, using an npm throbber for the terminal">
       <created>1610297992538</created>
@@ -72,7 +69,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610297992538</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Express, setting multiple routes and installing nodemon">
+      <created>1610382114778</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610382114778</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,16 +96,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Express, using an npm throbber for the terminal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Express, using an npm throbber for the terminal" />
+    <MESSAGE value="Express, setting multiple routes and installing nodemon" />
+    <option name="LAST_COMMIT_MESSAGE" value="Express, setting multiple routes and installing nodemon" />
   </component>
   <component name="WindowStateProjectService">
     <state x="460" y="184" key="SettingsEditor" timestamp="1610257169859">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="460" y="184" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1610257169859" />
-    <state x="551" y="270" key="Vcs.Push.Dialog.v2" timestamp="1610379092796">
+    <state x="551" y="270" key="Vcs.Push.Dialog.v2" timestamp="1610382117826">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="551" y="270" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1610379092796" />
+    <state x="551" y="270" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1610382117826" />
   </component>
 </project>
