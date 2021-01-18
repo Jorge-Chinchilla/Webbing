@@ -32,6 +32,7 @@ app.post("/", function (req, res){
         console.log(response); // (optional)
     };
     run();
+    res.sendFile(__dirname+"/success.html")
 
 /*    const data = {
         members: [
@@ -50,7 +51,7 @@ app.post("/", function (req, res){
     const options = {
         method: "POST",
         auth: "jorgech1:3c23636b2a6901d8005888eb28b3d378-us7"
-    }
+    }{
     const request = https.request(urlMailChimp, options, function (){
         response.on("data", function (data){
             console.log(JSON.parse(data));
@@ -60,7 +61,7 @@ app.post("/", function (req, res){
     request.end();*/
 })
 
-app.listen(3000, function (){
+app.listen(process.env.PORT || 3000, function (){ //process.env.PORT for heroku
     setTimeout(() => {
         spinner.color = 'blue';
         spinner.text = 'Server running';
