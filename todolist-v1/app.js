@@ -1,6 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const ora = require('ora');
+const date = require(__dirname+"/date.js");//requiring a model made by us
 
 const app = express();
 app.use(bodyParser.urlencoded({extended: true}));
@@ -9,13 +10,11 @@ app.use(express.static("public"));
 const spinner = ora('Loading server').start();
 
 //global
-let items = ["Buy food", "Play siege", "Sleep"];
-let workItems = [];
+const items = ["Buy food", "Play siege", "Sleep"];
+const workItems = [];
 
 app.get("/", function (req, res){
-    let today = new Date();
-    let options = {weekday: 'long', day: 'numeric', month: 'long'}
-    let day= today.toLocaleDateString("en-US", options);
+    let day = date.getDate();
     res.render('list', {listTitle: day, newListItems: items});
 })
 
