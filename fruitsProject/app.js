@@ -42,16 +42,25 @@ const kiwi = new Fruit({
 
  const personSchema = new mongoose.Schema({
      name: String,
-     age: Number
+     age: Number,
+     favouriteFruit: fruitSchema
  });
 
  const Person = mongoose.model("Person", personSchema);
 
- const person = new Person({
-     name: "David",
-     age: 32
+ const pineapple = new Fruit({
+    name: "Pineapple",
+    rating: 8,
+    review: "Nice fruit"
  });
-//person.save();
+ //pineapple.save();
+
+ const person = new Person({
+     name: "Jorge",
+     age: 32,
+     favouriteFruit: pineapple
+ });
+person.save();
 
 //********** Reading from the database *****************//
 
@@ -67,7 +76,7 @@ Fruit.find(function (err, fruits){
     }
 })
 
-fruit.updateOne({__id: "601c8a82fdccde08208b6dd6"}, {name: "Peach"}, function (err){
+Fruit.updateOne({__id: "601c8a82fdccde08208b6dd6"}, {name: "Peach"}, function (err){
     if(err){
         console.log(err);
     }else{
@@ -75,7 +84,7 @@ fruit.updateOne({__id: "601c8a82fdccde08208b6dd6"}, {name: "Peach"}, function (e
     }
 });
 
-fruit.deleteOne({__id: "601c952a4a259e42509b9158"}, function (err){
+Fruit.deleteOne({__id: "601c952a4a259e42509b9158"}, function (err){
     if(err){
         console.log(err);
     }else{
