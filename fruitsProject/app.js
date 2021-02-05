@@ -66,3 +66,19 @@ Fruit.find(function (err, fruits){
         });
     }
 })
+
+fruit.updateOne({__id: "601c8a82fdccde08208b6dd6"}, {name: "Peach"}, function (err){
+    if(err){
+        console.log(err);
+    }else{
+        console.log("Succesfully updated");
+    }
+});
+
+fruit.deleteOne({__id: "601c952a4a259e42509b9158"}, function (err){
+    if(err){
+        console.log(err);
+    }else{
+        console.log("Succesfully deleted");
+    }
+});
