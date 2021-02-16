@@ -15,8 +15,6 @@ mongoose.connect("mongodb://localhost:27017/todolistDB", {
   useUnifiedTopology: true
 });
 
-const workItems = []; //delete
-
 const itemsSchema = {
   name: String
 };
@@ -32,6 +30,13 @@ const item2 = new Item({
   name: "<-- Hit this to delete an item"
 })
 const defaultItems = [item0, item1, item2];
+
+const listSchema = {
+  name: String,
+  items: [itemsSchema]
+}
+
+const List = mongoose.model("List", listSchema);
 
 app.get("/", function(req, res) {
   Item.find({}, function (err, foundItems){
@@ -50,22 +55,60 @@ app.get("/", function(req, res) {
   });
 });
 
+app.get("/:customListName", function (req, res){
+  const customListName = req.params.customListName;
+
+  List.findOne({name: customListName}, function (err, foundList){
+    if(!err){
+      if(!foundList){
+        //Create a new list
+        const list = new List({
+          name: customListName,
+          items: defaultItems
+        });
+        list.save();
+        res.redirect("/"+customListName);
+      }else{
+        //show an existing list
+        res.render("list", {listTitle: foundList.name, newListItems: foundList.items});
+      }
+    }
+  });
+
+});
+
 app.post("/", function(req, res){
 
   const itemName = req.body.newItem;
+  const listName = req.body. list;
+
   const item = new Item({
     name: itemName
   });
-  item.save();
-  res.redirect("/");
-});
-
-app.get("/work", function(req,res){
-  res.render("list", {listTitle: "Work List", newListItems: workItems});
+  if(listName === "Today"){
+    item.save();
+    res.redirect("/");
+  }else{
+    List.findOne({name: listName}, function (err, foundList){
+      foundList.items.push(item);
+      foundList.save();
+      res.redirect("/"+listName);
+    });
+  }
 });
 
 app.get("/about", function(req, res){
   res.render("about");
+});
+
+app.post("/del", function (req, res){
+  const checkedItemId = req.body.checkbox;
+  Item.findByIdAndRemove(checkedItemId,function (err){
+    if(!err){
+      console.log("Successfully deleted");
+      res.redirect("/");
+    }
+  });
 });
 
 app.listen(3000, function() {
