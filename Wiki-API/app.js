@@ -22,6 +22,7 @@ const articleSchema = {
 
 const Article = mongoose.model("Article", articleSchema);
 
+//Request for all articles
 app.route("/articles")
     .get(function (req, res){
         Article.find(function (err, foundArticles){
@@ -59,7 +60,54 @@ app.route("/articles")
         });
     });
 
+//request for a specific article
+app.route("/articles/:articleTitle")
+    .get(function (req, res){
+        Article.findOne({title: req.params.articleTitle}, function (err, foundArticle){
+            if(foundArticle){
+                res.send(foundArticle);
+            }else{
+                res.send("No article found");
+            }
+        });
+    })
+    .put(function(req, res){
+        Article.update(
+            {title: req.params.articleTitle},
+            {title: req.body.title, content: req.body.content},
+            {overwrite: true},
+            function (err){
+                if(!err){
+                    res.send("Successfully updated");
+                }
+            });
+    })
+    .patch(function (req, res){
+        Article.update(
+            {title: req.params.articleTitle},
+            {$set: req.body},
+            function (err){
+                if(!err){
+                    res.end('Successfully updated');
+                }else{
+                    res.send(err);
+                }
+            }
+        );
+    })
+    .delete(function (req, res) {
+        Article.deleteOne(
+            {title: req.params.articleTitle},
+            function (err) {
+                if(!err){
+                    res.send("Succesfully deleted");
+                }else{
+                    res.send(err);
+                }
+            }
+        );
+    });
+
 app.listen(3000, function (){
     console.log("Server runnning");
 });
-{}
