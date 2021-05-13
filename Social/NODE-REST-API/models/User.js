@@ -16,7 +16,7 @@ const UserSchema = new mongoose.Schema({
     coverPicture:{
        type:String, default:"",
     },
-    follower:{
+    followers:{
        type:Array, default:[],
     },
     following:{
